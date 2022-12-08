@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: akashi;
+  src: url("/Akashi.ttf");
+}
+
+.akashi {
+  font-family: Akashi;
+}
+
+@layer base {
+  body {
+    @apply antialiased bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400;
+  }
+}
